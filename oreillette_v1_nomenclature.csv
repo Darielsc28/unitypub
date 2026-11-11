@@ -1,0 +1,27 @@
+﻿Reperes;Quantite;Valeur / reference;Empreinte;Fonction
+U1;1;ESP32-WROOM-32E-N4;ESP32-WROOM-32E;Module Bluetooth Classic + BLE
+U2;1;MAX98357AETE+T;TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm;Ampli classe D I2S mono
+U3;1;MCP73831T-2ACI/OT;SOT-23-5;Chargeur Li-ion 4,2 V
+U4;1;AP2112K-3.3TRG1;SOT-23-5;LDO 3,3 V 600 mA
+Q1;1;DMG2305UX;SOT-23;MOSFET P partage de charge
+D1;1;B5819W;D_SOD-123;Schottky 1 A 40 V
+D2;1;LED rouge;LED_0603_1608Metric;LED charge
+D3;1;LED bleue;LED_0603_1608Metric;LED etat
+J1;1;USB4125-GF-A;USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal;USB-C alimentation seule
+J2, J3;2;S2B-PH-K-S;JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal;
+J4;1;Barrette 1x6;PinHeader_1x06_P2.54mm_Vertical;Programmation UART
+SW1;1;PCM12SMTR;SW_SPDT_PCM12;Interrupteur marche/arret
+SW2, SW3, SW4;3;TL3342;SW_SPST_TL3342;
+R1, R2;2;5.1k;R_0603_1608Metric;
+R3;1;2k;R_0603_1608Metric;Courant de charge 500 mA
+R4, R10;2;1k;R_0603_1608Metric;
+R5, R13;2;100k;R_0603_1608Metric;
+R6;1;0R;R_0603_1608Metric;Shunt mesure courant batterie
+R7, R8, R9;3;10k;R_0603_1608Metric;
+R11, R12;2;1M;R_0603_1608Metric;
+R14;1;100k NON MONTE;R_0603_1608Metric;Option gain 15 dB
+C1, C2;2;4.7uF;C_0603_1608Metric;
+C3, C7;2;1uF;C_0603_1608Metric;
+C4;1;22uF;C_0805_2012Metric;Sortie LDO
+C5, C8;2;10uF;C_0805_2012Metric;
+C6, C9, C10, C11;4;100nF;C_0603_1608Metric;
