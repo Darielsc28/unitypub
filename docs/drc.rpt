@@ -1,0 +1,19 @@
+** Drc report for oreillette_v1.kicad_pcb **
+** Created on 2026-11-11T15:12:00+0000 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 2 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 110.0000 mm): Segment on Edge.Cuts
+    @(99.1800 mm, 91.4000 mm): Segment of SW1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 110.0000 mm): Segment on Edge.Cuts
+    @(100.4700 mm, 90.1000 mm): Segment of SW1 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
